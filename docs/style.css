@@ -92,6 +92,8 @@ img.cta {
     width:100%;
 }
 
-footer {
+.footer {
     margin-top: 50px;
+    background-color: #eee;
+    padding: 3rem 0.5rem 3rem;
 }
