@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -45,6 +45,26 @@ img.cta {
     margin-top: 0px;
 }
 
+.card-content .title {
+    margin-top: 0px;
+    font-size: 2rem;
+    line-height: 1.7em;
+    text-align: left;
+    font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+}
+
+.card-content .title .icon {
+    margin-right: 12px;
+    vertical-align: sub;
+}
+
+.card-content .subtitle {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    text-align: left;
+}
+
 .beta-ribbon { 
     z-index: 100;
     text-transform: uppercase;
@@ -60,4 +80,10 @@ img.cta {
     letter-spacing: 1px;
     color: #f0f0f0;
     transform: rotate(45deg);
+}
+
+#mc_embed_signup {
+    background:#fff; clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+    width:100%;
 }
