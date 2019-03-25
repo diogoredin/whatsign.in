@@ -4,6 +4,8 @@ html, body {
     margin: 0;
     padding: 0;
     background: #ffffff;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 img.logo-icon {
@@ -95,5 +97,6 @@ img.cta {
 .footer {
     margin-top: 50px;
     background-color: #eee;
+    font-size: 16px;
     padding: 3rem 0.5rem 3rem;
 }
