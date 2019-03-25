@@ -2,11 +2,18 @@
 chrome.runtime.onMessage.addListener(function(message) {
 	if ( message.social_found !== 'undefined' ) {
 
-		/* Finds the current tab - Careful if you change it because it has to handle popups */
 		chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
+
 			var hostname = (new URL(tabs[0].url)).hostname;
 			var tag = "WSI_" + hostname;
-			chrome.storage.sync.set({ [tag]: message.social_found });
+
+			chrome.storage.sync.get(tag, function(data) {
+	
+				if (typeof data[tag] === 'undefined') {
+					chrome.storage.sync.set({ [tag]: message.social_found });
+				}
+
+			});
 		});
 
 	}

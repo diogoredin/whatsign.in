@@ -58,19 +58,6 @@ document.addEventListener('mousedown', function(event) {
 		}
 	}
 
-	/* Analyse Siblings of Grandparent */
-	if (matchSocial(tokens) == "" || !matchAction(tokens)) {
-		if (event.target !== 'undefined' && event.target.parentNode !== 'undefined' && event.target.parentNode.parentNode !== 'undefined' 
-			&& event.target.parentNode.parentNode.parentNode !== 'undefined' && event.target.parentNode.parentNode.parentNode.childNodes !== 'undefined'
-			&& event.target.parentNode.parentNode.parentNode.childNodes.length > 0) {
-			var children = event.target.parentNode.parentNode.parentNode.childNodes;
-			for (var i = 0; i < children.length; i++) {
-				tokens += parseNodeAttributes(children[i]);
-				tokens += parseNodeText(children[i]);
-			}
-		}
-	}
-
 	/* Save the found social network chosen to Sign In - done on background (so its possible to know current tab) */
 	if ( matchSocial(tokens) !== "" && matchAction(tokens) ) {
 		chrome.runtime.sendMessage({social_found: matchSocial(tokens)});

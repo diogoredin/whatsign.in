@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-	chrome.tabs.getSelected(null, function(tab) {
-		var hostname = (new URL(tab.url)).hostname;
+	chrome.tabs.query({currentWindow: true, active: true}, function(tabs) {
+		var hostname = (new URL(tabs[0].url)).hostname;
 		var tag = "WSI_"+hostname;
 
 		chrome.storage.sync.get(tag, function(data) {
