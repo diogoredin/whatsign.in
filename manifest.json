@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
 	"name" : "whatsign.in",
-	"version" : "1.0",
+	"version" : "0.0.0.1",
 	"description" : "Remember which login service you used to sign in.",
 	"permissions": [
-		"tabs",
+		"activeTab",
 		"storage"
 	],
 	"icons": { 
