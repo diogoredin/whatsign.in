@@ -4,8 +4,6 @@ html, body {
     margin: 0;
     padding: 0;
     background: #ffffff;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 img.logo-icon {
@@ -65,23 +63,6 @@ img.cta {
     font-size: 1.5rem;
     line-height: 1.5em;
     text-align: left;
-}
-
-.beta-ribbon {
-    z-index: 100;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 15px;
-    width: 200px;
-    background: #444444;
-    position: absolute;
-    top: 15px;
-    right: -70px;
-    text-align: center;
-    line-height: 30px;
-    letter-spacing: 1px;
-    color: #f0f0f0;
-    transform: rotate(45deg);
 }
 
 .subscription-container {
