@@ -101,6 +101,15 @@ img.cta {
     width:100%;
 }
 
+p.terms {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+h1.terms-condtions-title {
+    margin-top: 0px;
+}
+
 .footer {
     margin-top: 50px;
     background-color: #eee;
