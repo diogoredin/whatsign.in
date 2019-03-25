@@ -65,7 +65,7 @@ img.cta {
     text-align: left;
 }
 
-.beta-ribbon { 
+.beta-ribbon {
     z-index: 100;
     text-transform: uppercase;
     font-weight: 800;
@@ -82,8 +82,16 @@ img.cta {
     transform: rotate(45deg);
 }
 
+.subscription-container {
+    margin-top: 20px;
+}
+
 #mc_embed_signup {
     background:#fff; clear:left;
     font:14px Helvetica,Arial,sans-serif;
     width:100%;
+}
+
+footer {
+    margin-top: 50px;
 }
