@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name" : "whatsign.in",
 	"version" : "1.0",
-	"description" : "Remeber which login service you used to sign in.",
+	"description" : "Remember which login service you used to sign in.",
 	"permissions": [
 		"tabs",
 		"storage"

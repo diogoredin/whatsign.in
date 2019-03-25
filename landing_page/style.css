@@ -1,0 +1,63 @@
+html, body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+img.logo-icon {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-top: 45px;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+
+img.cta {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    margin: 0 auto;
+}
+
+.screenshot {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.beta-ribbon { 
+    z-index: 100;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    width: 200px;
+    background: #444444;
+    position: absolute;
+    top: 15px;
+    right: -70px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(45deg);
+}
