@@ -35,6 +35,32 @@ img.cta {
     margin: 0 auto;
 }
 
+.extension-button {
+    margin-right: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.extension-button:hover {
+    color: #ffffff;
+}
+
+.chrome-extension {
+    background: #4185F4;
+}
+
+.chrome-extension:hover {
+    background: #0842A2;
+}
+
+.opera-extension {
+    background: #FF1C2D;
+}
+
+.opera-extension:hover {
+    background: #A60606;
+}
+
 .screenshot {
     padding-top: 0px;
     padding-bottom: 0px;
